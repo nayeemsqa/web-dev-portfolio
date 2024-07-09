@@ -49,6 +49,23 @@ main{
     background: rgb(228, 110, 26);
 }
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Open Sans;
+}
+
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Open Sans;
+    margin-top: 30px;
+}
+
+.text-alignment{
+    text-align: center;
+}
+
 /* header => nav + hero banner styling */
 
 #header{
@@ -155,11 +172,114 @@ nav ul{
     margin-left: 15px;
 }
 
+/* Main styling */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    padding: 131px 157px 132px 156px;
+    border-radius: 10px;
+    margin-top: 130px;
+    /* background-color: white; */
+}
 
 /* About section styling */
 
-.about{
-    border: 1px solid black;
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 30px;
+}
+
+.item-title{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.item-description{
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+/* skills section */
+
+.what-I-do{
+    margin-top: 50px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.skill-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.skill-description{
+    margin: 20px 116px;
+
+}
+
+/* resume styling */
+hr{
+    margin: 20px 10px;
+}
+.resume-container{
+    display: flex;
+    margin-top: 50px;
+    gap: 24px
+}
+
+.resume-column-title{
+    margin-bottom: 20px;
+}
+
+.resume-title{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Opens Sans;
+    margin-bottom: 32px;
+}
+
+.resume-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Opens Sans;
+    margin-bottom: 20px;
+}
+
+.resume-summery-title{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Opens Sans;
+    margin-top: 50px;
+}
+
+.resume-description{
+    padding-right: 20px;
 }
 
 
