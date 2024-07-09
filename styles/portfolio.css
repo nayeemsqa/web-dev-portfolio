@@ -1,0 +1,165 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  wdth: 100;
+}
+
+/* Universal css */
+
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* shared styling */
+
+.dark-2{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn-primary{
+    color: rgb(255, 255, 255);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    padding: 18px 36px;
+    border: none;
+}
+
+.btn-primary:hover{
+    cursor: pointer;
+    background: rgb(228, 110, 26);
+}
+
+/* header => nav + hero banner styling */
+
+#header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");  
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    /* margin-top: 0px; */
+}
+
+.bg-colour{
+    background: rgb(255, 248, 243);
+}
+
+/* nav styling */
+
+.letter-styling{
+    color: #FD6E0A;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 230px 50px;
+    padding: 50px 0px 0px;
+}
+
+.nav-title{
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* Banner styling */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px;
+}
+
+.banner-details{
+    width: 580px;
+}
+
+.banner-profile-pic{
+    width: 580px;
+}
+
+.hero-greetings{
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.hero-title{
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.hero-description{
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.btn-download{
+    margin-right: 15px;
+}
+.btn-contact{
+    margin-left: 15px;
+}
+
+
+/* About section styling */
+
+.about{
+    border: 1px solid black;
+}
+
+
